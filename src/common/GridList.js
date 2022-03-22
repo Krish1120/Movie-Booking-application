@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
   },
   imageList: {
-    width: '76%',
+    width: 'auto',
     height: 450,
   },
   icon: {
@@ -23,7 +23,6 @@ const useStyles = makeStyles((theme) => ({
 
 export default function GridImageList(props) {
   const classes = useStyles();
-
   return (
     <div className={classes.root}>
       <ImageList  rowHeight={350} className={classes.imageList} cols={4}>

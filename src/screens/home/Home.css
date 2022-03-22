@@ -10,3 +10,13 @@
 .right {
   margin: 16px;
 }
+.flex-container {
+  display: flex;
+}
+.Home {
+  display: flex;
+  flex-direction: column;
+}
+.container-sub {
+  width: 100%;
+}

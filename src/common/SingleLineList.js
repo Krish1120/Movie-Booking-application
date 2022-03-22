@@ -32,10 +32,12 @@ export default function SingleLineImageList(props) {
       <ImageList rowHeight={250} className={classes.imageList} cols={6}>
         {props.dataList.map((item) => (
           <ImageListItem key={item.id}>
+            <a href='#'>
             <img src={item.poster_url} alt={item.title} />
             <ImageListItemBar
               title={item.title}
             />
+            </a>
           </ImageListItem>
         ))}
       </ImageList>
