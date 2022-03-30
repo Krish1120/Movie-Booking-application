@@ -6,9 +6,11 @@
 }
 .left {
   margin: 16px;
+  width: 100%;
 }
 .right {
   margin: 16px;
+  width: 24%;
 }
 .flex-container {
   display: flex;
